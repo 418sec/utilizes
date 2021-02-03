@@ -11,3 +11,7 @@ test(`Value can bea function that invoked to preduce the actual value to set`, (
     anotherProp: 1,
     0: [1]
 }))
+
+test(`Disallow protopath override by throwing exception when unsafe path encountered`, () => expect(() => set({}, 'test', '__proto__.polluted')).toThrow())
+
+test(`Disallow protopath override by throwing exception when unsafe path encountered`, () => expect(() => set({}, 'test', 'constructor.prototype.polluted')).toThrow())
