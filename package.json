@@ -16,13 +16,13 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "lodash": "4.17.15",
+    "lodash": "5.0.0",
     "number-to-words": "1.2.4",
     "string-similarity": "3.0.0"
   },
   "devDependencies": {
     "@types/jest": "24.0.18",
-    "@types/lodash": "4.14.138",
+    "@types/lodash": "4.17.20",
     "@types/node": "12.7.5",
     "@types/number-to-words": "1.2.0",
     "@types/parcel-bundler": "1.12.1",
